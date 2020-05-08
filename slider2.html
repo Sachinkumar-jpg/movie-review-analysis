@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+ <link rel="stylesheet" type="text/css" href="slider.css">
+</head>
+<style>
+*{
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none; 
+}
+body{
+   margin:0px auto;
+   width:100%;
+  
+}
+.slider{
+    overflow: hidden;
+    height:20%;
+    width:100%;
+    background-color: antiquewhite;
+    box-shadow: 1px 2px 10px 5px black;
+}
+.slider figure div{
+    float: left;
+    width:20%;
+    height:60%;
+}
+.slide img{
+    width:100%;
+    height:400px;
+    float: left;
+}
+.slide-div{
+justify-content:space-around;
+width:100%;
+height:100%;
+}
+.slider figure{
+    position: relative;
+    width:500%;
+    margin:0px;
+    left:0px;
+    animation:20s turbo infinite ;
+}
+@keyframes turbo{
+    0%{ left:0%;}
+    10%{ left:0%;}
+    12%{ left:-100% }
+    22%{ left:-100%;}
+    24%{ left:-200%;}
+    34%{ left:-200%;}
+    36%{ left:-300%;}
+    46%{ left:-300%;}
+    48%{ left:-400%;}
+    58%{ left:-400%;}
+    60%{ left:-300%;}
+    70%{ left:-300%;}
+    72%{ left:-200%;}
+    82%{ left:-200%;}
+    84%{ left:-100%}
+    94%{ left:-100%;}
+    96%{ left:0%;}
+}
+
+</style>
+<body>
+      <div class="slider">
+          <figure>
+              <div class="slide">
+                 <img src="image/dolly.jpg" alt=" ">
+                 <div class="slide-div">
+                 <a href="#">about</a>
+                 <a href="#">casting</a>
+                 <a href="#">book now</a>
+                 <div style="border:1px solid black;width:10px;height:10px;"></div>
+                 </div>
+              </div>
+              <div class="slide">
+                <img src="image/Saand.jpg" alt=" ">
+                <div class="slide-div"></div>
+             </div>
+             <div class="slide">
+                <img src="image/Shamshera.jpg" alt=" ">
+                <div class="slide-div"></div>
+             </div>
+             <div class="slide">
+                <img src="image/Shiddat.jpg" alt=" ">
+                <div class="slide-div"></div>
+             </div>
+             <div class="slide">
+                <img src="image/Sooryavanshi.jpg" alt=" ">
+                <div class="slide-div"></div>
+             </div>
+          </figure>
+      </div>
+ </body>
+</html>

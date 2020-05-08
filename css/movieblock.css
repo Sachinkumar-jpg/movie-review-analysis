@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+.first_div {
+  position: relative;
+}
+
+.top_left {
+	 position: absolute;
+     top: 8px;
+     left: 16px;
+     font-size: 18px;
+     margin-left:10px;
+     margin-right:10px;
+}
+.bottom_left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+  justify-content:space-arround;
+}
+img {
+  width: 100%;
+  height: auto;
+  capacity:0.3;
+}

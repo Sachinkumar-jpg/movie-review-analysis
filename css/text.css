@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+.main{
+    
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+
+}
+.main1{
+  margin-top:0px;
+  width:100%;
+  height:80%;
+}
+.main2{
+    width:100%;
+    height:100px;
+    background-color: brown;
+}
+.main1 div{
+    float:left;
+}
+.main3{
+    width:20%;
+    height:100%;
+    background-color: aliceblue;
+}
+.main4{
+    width:80%;
+    height:100%;
+    background-color: lightgreen;
+}
+.slid{
+   width:80%;
+   height:20%;
+   margin-left:10%;
+   margin-right:10%;
+   margin-top:2%;
+   margin-bottom:2%;
+}
